@@ -7,12 +7,10 @@
 *cache
 *.pyc
 
-# icons/
-# aliases/
-# preferences/
 node_modules/
 
-# OS
+
+# OS Specific
 # =============================
 
 .DS_Store
