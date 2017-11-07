@@ -1,0 +1,229 @@
+{
+  /* GENERAL SETTINGS
+   * ************************************************************ *
+   * This file contains common settings.
+   * ************************************************************ */
+
+  // Note, all common settings can be overridden in:
+  //  - settings file provided by a package on a per-theme basis,
+  //  - `Packages/User/A File Icon Theme.sublime-settings` file.
+
+
+
+  // Table Of Contents
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // - Icons
+  // - Colors
+  // - Opacity
+  // - Sizes
+  // - Animation
+  // - Miscellaneous
+
+
+
+  // Icons
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // This setting allows you to change a way to obtain the icons.
+  // Valid options are "default" and "theme". Set to "theme" to use
+  // the icons provided by a package of the current global theme and
+  // add only missing ones. Set to "default" to use the icons
+  // provided by A File Icon only.
+  "icon_provider": "default",
+
+  // Note, you can override the icon in case if you don't like the
+  // one provided by the package or by the theme. For example, you
+  // don't like the JS icon, your steps are next:
+  //  - prepare the icon assets:
+  //    * they should be white,
+  //    * they should have the next sizes:
+  //      + @1x: 16px x 16px,
+  //      + @2x: 32px x 32px,
+  //  - rename the icon assets to match the ones provided by the
+  //    A File Icon package:
+  //    * `file_type_js.png`,
+  //    * `file_type_js@2x.png`,
+  //  - put them to `Packages/User/{A File Icon}/user/icons` dir,
+  //  - run "A File Icon: Re-apply Icons" command.
+
+
+
+  // Colors
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  // Color Variables
+  // ===============================================================
+
+  // It is possible to use next colors from the current global
+  // color scheme: "$foreground_color", "$background_color" and
+  // "$accent_color". These color variables are abstraction over
+  // https://www.sublimetext.com/docs/3/themes.html#colors-derived
+  // and in terms of Sublime Text we call them `derived` colors.
+  // Note, derived colors are supported by the next settings only:
+  //  - "icon_color",
+  //  - "icon_color_on_hover",
+  //  - "icon_color_on_selected".
+
+
+  // Color Formats
+  // ===============================================================
+
+  // A File Icon supports next color formats: HEX RGB(A), RGB(A),
+  // HSL(A), X11 and WEB named.
+  // Usage:
+  //  - "black",
+  //  - "#fff",
+  //  - "rgb(163, 194, 116)",
+  //  - "hsla(84, 40%, 76%, 0.5)",
+  //  - "$accent_color".
+
+
+  // Color Modes
+  // ===============================================================
+
+  // Valid options are "single" and "multi". Set to "single" to
+  // use the same color for all icons. Set to "multi" to use
+  // different colors on a per-icon basis. See `Single Color` and
+  // `Multi Color` sections for more details.
+  "color_mode": "multi",
+
+
+  // Single Color
+  // ---------------------------------------------------------------
+
+  // Note:
+  //  - The settings from this section work only if "color_mode" is
+  //    "single" and the theme supports colorization of icons if
+  //    "icon_provider" is "theme", otherwise the settings provided
+  //    in `Multi Color` section will be used.
+  //  - Valid values are various color formats. Derived color
+  //    variables are also supported here. See `Color Formats` and
+  //    `Color Variables` sections for more details.
+
+  // The default color of the icons.
+  "icon_color": "#808080",
+
+  // The color of the icon when your mouse over it.
+  "icon_color_on_hover": "",
+
+  // The color of the icon when it is in selected row.
+  "icon_color_on_selected": "",
+
+
+  // Multi Color
+  // ---------------------------------------------------------------
+
+  // Note:
+  //  - The settings from this section work only if "color_mode" is
+  //    "multi" or "icon_provider" is "theme" but the theme doesn't
+  //    support colorization of icons, otherwise the settings
+  //    provided in `Single Color` section will be used.
+  //  - In multi-color mode, the plugin uses different "icon_color"
+  //    on a per-icon basis and "icon_color_<state>" settings are
+  //    ignored.
+  //  - The recommended color for each icon can be found in
+  //    `A File Icon Color.sublime-settings` file.
+  //  - Theme developers may override these colors for the better
+  //    integration with their themes.
+  //  - Valid values are various color formats. Derived color
+  //    variables are not supported here. See `Color Formats`
+  //    section for more details.
+
+  // The color of the grayish icons.
+  "grayish_icon_color": "#798385",
+
+  // The color of the redish icons.
+  "redish_icon_color": "#d52a29",
+
+  // The color of the orangish icons.
+  "orangish_icon_color": "#ea7130",
+
+  // The color of the yellowish icons.
+  "yellowish_icon_color": "#e79627",
+
+  // The color of the greenish icons.
+  "greenish_icon_color": "#6aab20",
+
+  // The color of the bluish icons.
+  "bluish_icon_color": "#497ce3",
+
+  // The color of the purplish icons.
+  "purplish_icon_color": "#7963e6",
+
+
+
+  // Opacity
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // The default opacity of the icons.
+  "icon_opacity": 0.7,
+
+  // The opacity of the icon when your mouse over it.
+  "icon_opacity_on_hover": 1.0,
+
+  // The opacity of the icon when it is in selected row.
+  "icon_opacity_on_selected": 1.0,
+
+
+
+  // Sizes
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Icon padding may be specified in one of three ways:
+  //  - A single integer value — the same value is applied to the
+  //    left, top, right and bottom.
+  //  - An array of two integers — the first value is applied to
+  //    the left and right, while the second value is applied to the
+  //    top and bottom.
+  //  - An array of four integers — the values are applied, in
+  //    order, to the left, top, right and bottom.
+  // E.g. 8-point "padding" means that:
+  //  - @1x icons have the next size: 16px x 16px,
+  //  - @2x icons have the next size: 32px x 32px.
+  // Note:
+  //  - It's highly recommended that you do not change it. This
+  //    value is pretty common for existing themes. Sublime Text
+  //    doesn't support vector graphics or font icons, so resizing
+  //    raster graphics doesn't make a lot of sense, because you'll
+  //    get the blurry icons.
+  //  - You can set it to 0 to hide all file-specific icons.
+  //    Unlikely that is useful as a common value, but can be used
+  //    in the theme-specific settings.
+  "icon_padding": 8,
+
+  // This setting allows you to set the size of the white space
+  // outside the icons for the right side. It is pretty useful when
+  // the size of file icons differs from the size of folder icon and
+  // you want to align the text. Unlikely it is useful as a common
+  // value, but can be used in the theme-specific settings. Change
+  // it only if you know what you are doing.
+  "icon_margin_right": 0,
+
+
+
+  // Animation
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Set to true to enable the icon opacity animation.
+  "enable_icon_animation": false,
+
+  // The base speed of the icon opacity animation.
+  // Valid values are float numbers from 0.1 to 100.0.
+  "icon_animation_speed": 4.0,
+
+  // The interpolation method of the icon opacity animation.
+  // Valid options are "linear" and "smoothstep".
+  "icon_animation_interpolation": "smoothstep",
+
+
+
+  // Miscellaneous
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // By default the package provides syntax aliases to apply such
+  // icons as `Gulpfile.js`, `webpack.config.js`, `package.json` and
+  // etc. Set to true to disable them.
+  "disable_syntax_aliases": false
+}

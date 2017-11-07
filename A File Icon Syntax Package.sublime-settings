@@ -1,0 +1,1303 @@
+{
+  /* ICON-SPECIFIC SETTINGS – SYNTAX PACKAGES
+   * ************************************************************ *
+   * This file contains syntax settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - We use these settings to generate icon preferences for
+  //    provided syntaxes.
+  //  - All icon preferences files can be found in `assets/prefs`.
+  //  - If you think that some icon is missing: feel free to file
+  //    your issue: https://github.com/ihodev/a-file-icon/issues.
+
+  /*
+    // The list of packages with syntaxes which use the icon.
+    // Note, the name of this setting should match the icon asset
+    // name without extension. E.g. we have the `file_type_foo.png`
+    // icon for Foo files, so the name is next:
+    "file_type_foo": [
+      {
+        // The name of the syntax package. This setting is used
+        // for information purposes only.
+        "package_name": "Foo",
+
+        // Where you can find all necessary information about
+        // the syntax package. Indicates that syntax package is
+        // maintained by community. This also means that you have to
+        // install this package to see the right icon.
+        "package_url": "https://packagecontrol.io/packages/Foo",
+
+        // A list of default scopes provided by the syntaxes of
+        // the package.
+        "package_scopes": [
+          "source.foo",
+          "text.foo.basic"
+        ]
+      }
+    ],
+  */
+
+  // The syntax packages for ActionScript files.
+  "file_type_actionscript": [
+    {
+      "package_name": "ActionScript",
+      "package_scopes": [
+        "source.actionscript"
+      ]
+    }
+  ],
+
+  // The syntax packages for Angular specific files.
+  "file_type_angular": [
+    {
+      "package_name": "Angular​JS",
+      "package_url": "https://packagecontrol.io/packages/AngularJS",
+      "package_scopes": [
+        "text.html.basic.angularjs"
+      ]
+    }
+  ],
+
+  // The syntax packages for AppleScript files.
+  "file_type_applescript": [
+    {
+      "package_name": "AppleScript",
+      "package_scopes": [
+        "source.applescript"
+      ]
+    }
+  ],
+
+  // The syntax packages for Laravel Blade files.
+  "file_type_blade": [
+    {
+      "package_name": "Laravel Blade Highlighter",
+      "package_url": "https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter",
+      "package_scopes": [
+        "text.blade"
+      ]
+    }
+  ],
+
+  // The syntax packages for C files.
+  "file_type_c": [
+    {
+      "package_name": "C++",
+      "package_scopes": [
+        "source.c"
+      ]
+    },
+    {
+      "package_name": "Objective-C",
+      "package_scopes": [
+        "source.objc"
+      ]
+    }
+  ],
+
+  // The syntax packages for Cold Fusion and Lucee files.
+  "file_type_cf": [
+    {
+      "package_name": "CFML",
+      "package_url": "https://packagecontrol.io/packages/CFML",
+      "package_scopes": [
+        "embedding.cfml"
+      ]
+    }
+  ],
+
+  // The syntax packages for Clojure files.
+  "file_type_clojure": [
+    {
+      "package_name": "Clojure",
+      "package_scopes": [
+        "source.clojure"
+      ]
+    }
+  ],
+
+  // The syntax packages for CoffeeScript files.
+  "file_type_coffeescript": [
+    {
+      "package_name": "Better CoffeeScript",
+      "package_url": "https://packagecontrol.io/packages/Better%20CoffeeScript",
+      "package_scopes": [
+        "source.coffee"
+      ]
+    }
+  ],
+
+  // The syntax packages for C++ files.
+  "file_type_cpp": [
+    {
+      "package_name": "C++",
+      "package_scopes": [
+        "source.c++"
+      ]
+    },
+    {
+      "package_name": "Objective-C",
+      "package_scopes": [
+        "source.objc++"
+      ]
+    }
+  ],
+
+  // The syntax packages for C# files.
+  "file_type_csharp": [
+    {
+      "package_name": "C#",
+      "package_scopes": [
+        "source.cs"
+      ]
+    }
+  ],
+
+  // The syntax packages for CSS files.
+  "file_type_css": [
+    {
+      "package_name": "CSS",
+      "package_scopes": [
+        "source.css"
+      ]
+    },
+    {
+      "package_name": "CSS3",
+      "package_url": "https://packagecontrol.io/packages/CSS3",
+      "package_scopes": [
+        "source.css"
+      ]
+    }
+  ],
+
+  // The syntax packages for CSV files.
+  "file_type_csv": [
+    {
+      "package_name": "Advanced CSV",
+      "package_url": "https://packagecontrol.io/packages/Advanced%20CSV",
+      "package_scopes": [
+        "text.advanced_csv"
+      ]
+    },
+    {
+      "package_name": "CSV",
+      "package_url": "https://github.com/michaelblyons/SublimeSyntax-CSV",
+      "package_scopes": [
+        "text.csv"
+      ]
+    }
+  ],
+
+  // The syntax packages for Dart files.
+  "file_type_dart": [
+    {
+      "package_name": "Dart",
+      "package_url": "https://packagecontrol.io/packages/Dart",
+      "package_scopes": [
+        "source.dart"
+      ]
+    }
+  ],
+
+  // The syntax packages for D files.
+  "file_type_dlang": [
+    {
+      "package_name": "D",
+      "package_scopes": [
+        "source.d"
+      ]
+    }
+  ],
+
+  // The syntax packages for Docker specific files.
+  "file_type_docker": [
+    {
+      "package_name": "Dockerfile Syntax Highlighting",
+      "package_url": "https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting",
+      "package_scopes": [
+        "source.dockerfile"
+      ]
+    }
+  ],
+
+  // The syntax packages for .NET specific files.
+  "file_type_dotnet": [
+    {
+      "package_name": "ASP",
+      "package_scopes": [
+        "source.asp",
+        "text.html.asp"
+      ]
+    }
+  ],
+
+  // The syntax packages for EditorConfig files.
+  "file_type_editorconfig": [
+    {
+      "package_name": "EditorConfig",
+      "package_url": "https://packagecontrol.io/packages/EditorConfig",
+      "package_scopes": [
+        "source.ini.editorconfig"
+      ]
+    }
+  ],
+
+  // The syntax packages for Elm files.
+  "file_type_elm": [
+    {
+      "package_name": "Elm Language Support",
+      "package_url": "https://packagecontrol.io/packages/Elm%20Language%20Support",
+      "package_scopes": [
+        "source.elm"
+      ]
+    }
+  ],
+
+  // The syntax packages for Erlang files.
+  "file_type_erlang": [
+    {
+      "package_name": "Erlang",
+      "package_scopes": [
+        "source.erlang",
+        "text.html.erlang.yaws"
+      ]
+    }
+  ],
+
+  // The syntax packages for Elixir files.
+  "file_type_ex": [
+    {
+      "package_name": "Elixir",
+      "package_url": "https://packagecontrol.io/packages/Elixir",
+      "package_scopes": [
+        "source.elixir",
+        "text.elixir",
+        "text.html.elixir"
+      ]
+    }
+  ],
+
+  // The syntax packages for Git specific files.
+  "file_type_git": [
+    {
+      "package_name": "Git Files",
+      "package_url": "https://github.com/y0ssar1an/Packages/tree/add_gitconfig_pkg/Git%20Files",
+      "package_scopes": [
+        "text.git"
+      ]
+    },
+    {
+      "package_name": "Git",
+      "package_url": "https://packagecontrol.io/packages/Git",
+      "package_scopes": [
+        "text.git-blame",
+        "text.git-commit",
+        "text.git-commit-view",
+        "text.git-graph"
+      ]
+    },
+    {
+      "package_name": "GitSyntaxes",
+      "package_url": "https://packagecontrol.io/packages/GitSyntaxes",
+      "package_scopes": [
+        "text.git",
+        "source.git"
+      ]
+    },
+    {
+      "package_name": "SublimeGit",
+      "package_url": "https://packagecontrol.io/packages/SublimeGit",
+      "package_scopes": [
+        "text.git-blame",
+        "text.git-commit",
+        "source.git-diff",
+        "source.git-show",
+        "text.git-status",
+        "text.git-tag"
+      ]
+    },
+    {
+      "package_name": "Git Commit Message Syntax",
+      "package_url": "https://packagecontrol.io/packages/Git%20Commit%20Message%20Syntax",
+      "package_scopes": [
+        "text.git-commit-message"
+      ]
+    }
+  ],
+
+  // The syntax packages for Go files.
+  "file_type_go": [
+    {
+      "package_name": "Go",
+      "package_scopes": [
+        "source.go"
+      ]
+    }
+  ],
+
+  // The syntax packages for Gradle files.
+  "file_type_gradle": [
+    {
+      "package_name": "Gradle_Language",
+      "package_url": "https://packagecontrol.io/packages/Gradle_Language",
+      "package_scopes": [
+        "source.gradle"
+      ]
+    }
+  ],
+
+  // The syntax packages for Graphviz files.
+  "file_type_graphviz": [
+    {
+      "package_name": "Graphviz",
+      "package_scopes": [
+        "source.dot"
+      ]
+    }
+  ],
+
+  // The syntax packages for Groovy files.
+  "file_type_groovy": [
+    {
+      "package_name": "Groovy",
+      "package_scopes": [
+        "source.groovy"
+      ]
+    }
+  ],
+
+  // The syntax packages for HAML files.
+  "file_type_haml": [
+    {
+      "package_name": "Rails",
+      "package_scopes": [
+        "text.haml"
+      ]
+    }
+  ],
+
+  // The syntax packages for Haskell files.
+  "file_type_haskell": [
+    {
+      "package_name": "Haskell",
+      "package_scopes": [
+        "source.haskell"
+      ]
+    }
+  ],
+
+  // The syntax packages for Haxe files.
+  "file_type_haxe": [
+    {
+      "package_name": "Haxe",
+      "package_url": "https://packagecontrol.io/packages/Haxe",
+      "package_scopes": [
+        "source.haxe",
+        "source.hss",
+        "source.nmml"
+      ]
+    }
+  ],
+
+  // The syntax packages for HTML files.
+  "file_type_html": [
+    {
+      "package_name": "HTML",
+      "package_scopes": [
+        "text.html.basic"
+      ]
+    }
+  ],
+
+  // The syntax packages for Java files.
+  "file_type_java": [
+    {
+      "package_name": "Java",
+      "package_scopes": [
+        "source.java"
+      ]
+    }
+  ],
+
+  // The syntax packages for JavaScript files.
+  "file_type_js": [
+    {
+      "package_name": "JavaScript",
+      "package_scopes": [
+        "source.js"
+      ]
+    }
+  ],
+
+  // The syntax packages for JSON files.
+  "file_type_json": [
+    {
+      "package_name": "JavaScript",
+      "package_scopes": [
+        "source.json"
+      ]
+    }
+  ],
+
+  // The syntax packages for JSP files.
+  "file_type_jsp": [
+    {
+      "package_name": "Java",
+      "package_scopes": [
+        "text.html.jsp"
+      ]
+    }
+  ],
+
+  // The syntax packages for JSX files.
+  "file_type_jsx": [
+    {
+      "package_name": "JSX",
+      "package_url": "https://packagecontrol.io/packages/JSX",
+      "package_scopes": [
+        "source.js.jsx"
+      ]
+    },
+    {
+      "package_name": "Simple JSX",
+      "package_url": "https://packagecontrol.io/packages/Simple%20JSX",
+      "package_scopes": [
+        "source.jsx"
+      ]
+    },
+    {
+      "package_name": "Naomi",
+      "package_url": "https://packagecontrol.io/packages/Naomi",
+      "package_scopes": [
+        "source.js.fjsx15"
+      ]
+    }
+  ],
+
+  // The syntax packages for Julia files.
+  "file_type_julia": [
+    {
+      "package_name": "Julia",
+      "package_url": "https://packagecontrol.io/packages/Julia",
+      "package_scopes": [
+        "source.julia"
+      ]
+    }
+  ],
+
+  // The syntax packages for Kotlin files.
+  "file_type_kotlin": [
+    {
+      "package_name": "Kotlin",
+      "package_url": "https://packagecontrol.io/packages/Kotlin",
+      "package_scopes": [
+        "source.Kotlin"
+      ]
+    }
+  ],
+
+  // The syntax packages for LESS files.
+  "file_type_less": [
+    {
+      "package_name": "LESS",
+      "package_url": "https://packagecontrol.io/packages/LESS",
+      "package_scopes": [
+        "source.less"
+      ]
+    },
+    {
+      "package_name": "LessImproved",
+      "package_url": "https://packagecontrol.io/packages/LessImproved",
+      "package_scopes": [
+        "source.less"
+      ]
+    },
+    {
+      "package_name": "Better Less",
+      "package_url": "https://packagecontrol.io/packages/Better%20Less",
+      "package_scopes": [
+        "source.less"
+      ]
+    }
+  ],
+
+  // The syntax packages for Liquid files.
+  "file_type_liquid": [
+    {
+      "package_name": "Liquid",
+      "package_url": "https://packagecontrol.io/packages/Liquid",
+      "package_scopes": [
+        "text.html.liquid"
+      ]
+    },
+    {
+      "package_name": "Siteleaf Liquid Syntax",
+      "package_url": "https://packagecontrol.io/packages/Siteleaf%20Liquid%20Syntax",
+      "package_scopes": [
+        "text.html.liquid"
+      ]
+    }
+  ],
+
+  // The syntax packages for Lisp files.
+  "file_type_lisp": [
+    {
+      "package_name": "Lisp",
+      "package_scopes": [
+        "source.lisp"
+      ]
+    }
+  ],
+
+  // The syntax packages for LSL files.
+  "file_type_lsl": [
+    {
+      "package_name": "LSL",
+      "package_url": "https://packagecontrol.io/packages/LSL",
+      "package_scopes": [
+        "source.lsl",
+        "source.ossl"
+      ]
+    }
+  ],
+
+  // The syntax packages for Lua files.
+  "file_type_lua": [
+    {
+      "package_name": "Lua",
+      "package_scopes": [
+        "source.lua"
+      ]
+    }
+  ],
+
+  // The syntax packages for Markdown files.
+  "file_type_markdown": [
+    {
+      "package_name": "Markdown",
+      "package_scopes": [
+        "text.html.markdown"
+      ]
+    }
+  ],
+
+  // The syntax packages for MATLAB files.
+  "file_type_matlab": [
+    {
+      "package_name": "MATLAB",
+      "package_scopes": [
+        "source.matlab"
+      ]
+    }
+  ],
+
+  // The syntax packages for Maya files.
+  "file_type_maya": [
+    {
+      "package_name": "Maya​Sublime",
+      "package_url": "https://packagecontrol.io/packages/MayaSublime",
+      "package_scopes": [
+        "source.mel"
+      ]
+    }
+  ],
+
+  // The syntax packages for Mustache files.
+  "file_type_mustache": [
+    {
+      "package_name": "HTML Mustache",
+      "package_url": "https://packagecontrol.io/packages/HTML%20Mustache",
+      "package_scopes": [
+        "txt.html.mustache",
+        "text.html.hgn"
+      ]
+    },
+    {
+      "package_name": "Handlebars",
+      "package_url": "https://packagecontrol.io/packages/Handlebars",
+      "package_scopes": [
+        "text.html.handlebars"
+      ]
+    },
+    {
+      "package_name": "Hamlbars",
+      "package_url": "https://packagecontrol.io/packages/Hamlbars",
+      "package_scopes": [
+        "source.hamlbars"
+      ]
+    }
+  ],
+
+  // The syntax packages for NGINX specific files.
+  "file_type_nginx": [
+    {
+      "package_name": "nginx",
+      "package_url": "https://packagecontrol.io/packages/nginx",
+      "package_scopes": [
+        "source.nginx"
+      ]
+    },
+    {
+      "package_name": "Nginx Log Highlighter",
+      "package_url": "https://packagecontrol.io/packages/Nginx%20Log%20Highlighter",
+      "package_scopes": [
+        "text.nginx"
+      ]
+    }
+  ],
+
+  // The syntax packages for notes.
+  "file_type_note": [
+    {
+      "package_name": "PlainNotes",
+      "package_url": "https://packagecontrol.io/packages/PlainNotes",
+      "package_scopes": [
+        "text.html.markdown.note"
+      ]
+    },
+    {
+      "package_name": "Notes",
+      "package_url": "https://packagecontrol.io/packages/Notes",
+      "package_scopes": [
+        "source.notes",
+        "text.notes"
+      ]
+    },
+    {
+      "package_name": "Evernote",
+      "package_url": "https://packagecontrol.io/packages/Evernote",
+      "package_scopes": [
+        "text.html.markdown.evernote"
+      ]
+    }
+  ],
+
+  // The syntax packages for NSIS files.
+  "file_type_nsis": [
+    {
+      "package_name": "NSIS",
+      "package_url": "https://packagecontrol.io/packages/NSIS",
+      "package_scopes": [
+        "source.nsis"
+      ]
+    },
+    {
+      "package_name": "NSIS for Translators",
+      "package_url": "https://packagecontrol.io/packages/NSIS%20for%20Translators",
+      "package_scopes": [
+        "source.nlf"
+      ]
+    },
+    {
+      "package_name": "Bridle​NSIS",
+      "package_url": "https://packagecontrol.io/packages/BridleNSIS",
+      "package_scopes": [
+        "source.nsis.bridle"
+      ]
+    }
+  ],
+
+  // The syntax packages for OCaml files.
+  "file_type_ocaml": [
+    {
+      "package_name": "OCaml",
+      "package_scopes": [
+        "source.ocaml",
+        "source.ocamllex",
+        "source.ocamlyacc",
+        "source.camlp4.ocaml"
+      ]
+    }
+  ],
+
+  // The syntax packages for Perl files.
+  "file_type_perl": [
+    {
+      "package_name": "Perl",
+      "package_scopes": [
+        "source.perl"
+      ]
+    },
+    {
+      "package_name": "Modern​Perl",
+      "package_url": "https://packagecontrol.io/packages/ModernPerl",
+      "package_scopes": [
+        "source.perl"
+      ]
+    }
+  ],
+
+  // The syntax packages for PHP files.
+  "file_type_php": [
+    {
+      "package_name": "PHP",
+      "package_scopes": [
+        "embedding.php",
+        "source.php"
+      ]
+    },
+    {
+      "package_name": "php-grammar",
+      "package_url": "https://packagecontrol.io/packages/php-grammar",
+      "package_scopes": [
+        "embedding.php",
+        "source.php"
+      ]
+    }
+  ],
+
+  // The syntax packages for property list files.
+  "file_type_plist": [
+    {
+      "package_name": "plist",
+      "package_url": "https://packagecontrol.io/packages/plist",
+      "package_scopes": [
+        "text.plist"
+      ]
+    },
+    {
+      "package_name": "Package​Dev",
+      "package_url": "https://packagecontrol.io/packages/PackageDev",
+      "package_scopes": [
+        "text.xml.plist"
+      ]
+    }
+  ],
+
+  // The syntax packages for PostCSS files.
+  "file_type_postcss": [
+    {
+      "package_name": "Syntax Highlighting for Post​CSS",
+      "package_url": "https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20PostCSS",
+      "package_scopes": [
+        "source.postcss",
+        "source.css.postcss.sugarss"
+      ]
+    },
+    {
+      "package_name": "Syntax Highlighting for SSS Sugar​SS",
+      "package_url": "https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20SSS%20SugarSS",
+      "package_scopes": [
+        "source.sss"
+      ]
+    }
+  ],
+
+  // The syntax packages for PowerShell files.
+  "file_type_powershell": [
+    {
+      "package_name": "Power​Shell",
+      "package_url": "https://packagecontrol.io/packages/PowerShell",
+      "package_scopes": [
+        "source.powershell"
+      ]
+    }
+  ],
+
+  // The syntax packages for preferences.
+  "file_type_preferences": [
+    {
+      "package_name": "Apache​Conf.tm​Language",
+      "package_url": "https://packagecontrol.io/packages/ApacheConf.tmLanguage",
+      "package_scopes": [
+        "source.apacheconf"
+      ]
+    }
+  ],
+
+  // The syntax packages for Pug files.
+  "file_type_pug": [
+    {
+      "package_name": "Pug",
+      "package_url": "https://packagecontrol.io/packages/Pug",
+      "package_scopes": [
+        "text.pug",
+        "source.pypug"
+      ]
+    },
+    {
+      "package_name": "Jade",
+      "package_url": "https://packagecontrol.io/packages/Jade",
+      "package_scopes": [
+        "text.jade",
+        "source.pyjade"
+      ]
+    }
+  ],
+
+  // The syntax packages for Puppet files.
+  "file_type_puppet": [
+    {
+      "package_name": "Puppet",
+      "package_url": "https://packagecontrol.io/packages/Puppet",
+      "package_scopes": [
+        "source.puppet"
+      ]
+    }
+  ],
+
+  // The syntax packages for Python files.
+  "file_type_python": [
+    {
+      "package_name": "Python",
+      "package_scopes": [
+        "source.python"
+      ]
+    },
+    {
+      "package_name": "Python 3",
+      "package_url": "https://packagecontrol.io/packages/Python%203",
+      "package_scopes": [
+        "source.cython",
+        "source.python.3"
+      ]
+    },
+    {
+      "package_name": "Magic​Python",
+      "package_url": "https://packagecontrol.io/packages/MagicPython",
+      "package_scopes": [
+        "source.python"
+      ]
+    },
+    {
+      "package_name": "Python Improved",
+      "package_url": "https://packagecontrol.io/packages/Python%20Improved",
+      "package_scopes": [
+        "source.python"
+      ]
+    }
+  ],
+
+  // The syntax packages for R files.
+  "file_type_r": [
+    {
+      "package_name": "R",
+      "package_scopes": [
+        "source.r",
+        "text.tex.latex.rd"
+      ]
+    }
+  ],
+
+  // The syntax packages for Rails files.
+  "file_type_rails": [
+    {
+      "package_name": "Rails",
+      "package_scopes": [
+        "source.ruby.rails",
+        "text.html.ruby"
+      ]
+    }
+  ],
+
+  // The syntax packages for Riot specific files.
+  "file_type_riot": [
+    {
+      "package_name": "Riot Tag",
+      "package_url": "https://packagecontrol.io/packages/Riot%20Tag",
+      "package_scopes": [
+        "text.html.riot",
+        "source.jade.riot"
+      ]
+    }
+  ],
+
+  // The syntax packages for Ruby files.
+  "file_type_ruby": [
+    {
+      "package_name": "Ruby",
+      "package_scopes": [
+        "source.ruby"
+      ]
+    }
+  ],
+
+  // The syntax packages for Rust files.
+  "file_type_rust": [
+    {
+      "package_name": "Rust",
+      "package_scopes": [
+        "source.rust"
+      ]
+    },
+    {
+      "package_name": "Rust Enhanced",
+      "package_url": "https://packagecontrol.io/packages/Rust%20Enhanced",
+      "package_scopes": [
+        "source.rust"
+      ]
+    }
+  ],
+
+  // The syntax packages for Sass files.
+  "file_type_sass": [
+    {
+      "package_name": "Sass",
+      "package_url": "https://packagecontrol.io/packages/Sass",
+      "package_scopes": [
+        "source.sass"
+      ]
+    },
+    {
+      "package_name": "Syntax Highlighting for Sass",
+      "package_url": "https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass",
+      "package_scopes": [
+        "source.sass"
+      ]
+    }
+  ],
+
+  // The syntax packages for Scala files.
+  "file_type_scala": [
+    {
+      "package_name": "Scala",
+      "package_scopes": [
+        "source.scala"
+      ]
+    },
+    {
+      "package_name": "Scala Syntax",
+      "package_url": "https://packagecontrol.io/packages/Scala%20Syntax",
+      "package_scopes": [
+        "source.scala"
+      ]
+    }
+  ],
+
+  // The syntax packages for SCSS files.
+  "file_type_scss": [
+    {
+      "package_name": "SCSS",
+      "package_url": "https://packagecontrol.io/packages/SCSS",
+      "package_scopes": [
+        "source.scss"
+      ]
+    },
+    {
+      "package_name": "Syntax Highlighting for Sass",
+      "package_url": "https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass",
+      "package_scopes": [
+        "source.scss"
+      ]
+    },
+    {
+      "package_name": "Naomi",
+      "package_url": "https://packagecontrol.io/packages/Naomi",
+      "package_scopes": [
+        "source.scss"
+      ]
+    }
+  ],
+
+  // The syntax packages for settings.
+  "file_type_settings": [
+    {
+      "package_name": "INI",
+      "package_url": "https://packagecontrol.io/packages/INI",
+      "package_scopes": [
+        "source.ini"
+      ]
+    },
+    {
+      "package_name": "Dot​ENV",
+      "package_url": "https://packagecontrol.io/packages/DotENV",
+      "package_scopes": [
+        "source.env"
+      ]
+    }
+  ],
+
+  // The syntax packages for Shell specific files.
+  "file_type_shell": [
+    {
+      "package_name": "ShellScript",
+      "package_scopes": [
+        "source.shell",
+        "source.shell.bash"
+      ]
+    },
+    {
+      "package_name": "fish-shell",
+      "package_url": "https://packagecontrol.io/packages/fish-shell",
+      "package_scopes": [
+        "source.fish"
+      ]
+    },
+    {
+      "package_name": "Shell​Script​Improved",
+      "package_url": "https://packagecontrol.io/packages/ShellScriptImproved",
+      "package_scopes": [
+        "source.shell"
+      ]
+    }
+  ],
+
+  // The syntax packages for Ruby Slim files.
+  "file_type_slim": [
+    {
+      "package_name": "Ruby Slim",
+      "package_url": "https://packagecontrol.io/packages/Ruby%20Slim",
+      "package_scopes": [
+        "text.slim"
+      ]
+    }
+  ],
+
+  // The syntax packages for SQL files.
+  "file_type_sql": [
+    {
+      "package_name": "SQL",
+      "package_scopes": [
+        "source.sql"
+      ]
+    },
+    {
+      "package_name": "Improved​SQL",
+      "package_url": "https://packagecontrol.io/packages/ImprovedSQL",
+      "package_scopes": [
+        "source.sql"
+      ]
+    },
+    {
+      "package_name": "Postgres PL pg​SQL",
+      "package_url": "https://packagecontrol.io/packages/Postgres%20PL%20pgSQL",
+      "package_scopes": [
+        "source.plpgsql.postgres"
+      ]
+    },
+    {
+      "package_name": "Postgre​SQL Syntax Highlighting",
+      "package_url": "https://packagecontrol.io/packages/PostgreSQL%20Syntax%20Highlighting",
+      "package_scopes": [
+        "source.pgsql"
+      ]
+    }
+  ],
+
+  // The syntax packages for Stata files.
+  "file_type_stata": [
+    {
+      "package_name": "Stata​Editor",
+      "package_url": "https://packagecontrol.io/packages/StataEditor",
+      "package_scopes": [
+        "source.stata"
+      ]
+    },
+    {
+      "package_name": "Stata Enhanced",
+      "package_url": "https://packagecontrol.io/packages/Stata%20Enhanced",
+      "package_scopes": [
+        "source.stata"
+      ]
+    },
+    {
+      "package_name": "Stata Improved Editor",
+      "package_url": "https://packagecontrol.io/packages/Stata%20Improved%20Editor",
+      "package_scopes": [
+        "source.stata"
+      ]
+    }
+  ],
+
+  // The syntax packages for Stylus files.
+  "file_type_stylus": [
+    {
+      "package_name": "Stylus",
+      "package_url": "https://packagecontrol.io/packages/Stylus",
+      "package_scopes": [
+        "source.stylus"
+      ]
+    }
+  ],
+
+  // The syntax packages for Sublime Text files.
+  "file_type_sublime": [
+    {
+      "package_name": "Package​Dev",
+      "package_url": "https://packagecontrol.io/packages/PackageDev",
+      "package_scopes": [
+        "source.json.sublime",
+        "text.xml.sublime",
+        "source.yaml.sublime",
+        "text.xml.plist.textmate.preferences",
+        "source.json-tmlanguage",
+        "source.yaml-tmlanguage"
+      ]
+    }
+  ],
+
+  // The syntax packages for Swift files.
+  "file_type_swift": [
+    {
+      "package_name": "Swift",
+      "package_url": "https://packagecontrol.io/packages/Swift",
+      "package_scopes": [
+        "source.swift"
+      ]
+    },
+    {
+      "package_name": "Swift for F*ing Sublime",
+      "package_url": "https://packagecontrol.io/packages/Swift%20for%20F*ing%20Sublime",
+      "package_scopes": [
+        "source.swift"
+      ]
+    }
+  ],
+
+  // The syntax packages for Tcl files.
+  "file_type_tcl": [
+    {
+      "package_name": "TCL",
+      "package_scopes": [
+        "source.tcl",
+        "text.html.tcl"
+      ]
+    }
+  ],
+
+  // The syntax packages for LaTeX files.
+  "file_type_tex": [
+    {
+      "package_name": "LaTeX",
+      "package_scopes": [
+        "text.tex",
+        "text.bibtex"
+      ]
+    }
+  ],
+
+  // The syntax packages for Textile files.
+  "file_type_textile": [
+    {
+      "package_name": "Textile",
+      "package_scopes": [
+        "text.html.textile"
+      ]
+    }
+  ],
+
+  // The syntax packages for TODO files.
+  "file_type_todo": [
+    {
+      "package_name": "PlainTasks",
+      "package_url": "https://packagecontrol.io/packages/PlainTasks",
+      "package_scopes": [
+        "text.todo"
+      ]
+    },
+    {
+      "package_name": "orgmode",
+      "package_url": "https://packagecontrol.io/packages/orgmode",
+      "package_scopes": [
+        "text.orgmode"
+      ]
+    },
+    {
+      "package_name": "Type​Todo",
+      "package_url": "https://packagecontrol.io/packages/TypeTodo",
+      "package_scopes": [
+        "text.typeTodo"
+      ]
+    },
+    {
+      "package_name": "Todo.​txt Syntax",
+      "package_url": "https://packagecontrol.io/packages/Todo.txt%20Syntax",
+      "package_scopes": [
+        "text.todotxt"
+      ]
+    },
+    {
+      "package_name": "To​Done",
+      "package_url": "https://packagecontrol.io/packages/ToDone",
+      "package_scopes": [
+        "text.todone"
+      ]
+    }
+  ],
+
+  // The syntax packages for Twig files.
+  "file_type_twig": [
+    {
+      "package_name": "PHP-Twig",
+      "package_url": "https://packagecontrol.io/packages/PHP-Twig",
+      "package_scopes": [
+        "text.html.twig"
+      ]
+    },
+    {
+      "package_name": "Craft-Twig",
+      "package_url": "https://packagecontrol.io/packages/Craft-Twig",
+      "package_scopes": [
+        "text.html.twig"
+      ]
+    },
+    {
+      "package_name": "October Twig Highlighter",
+      "package_url": "https://packagecontrol.io/packages/October%20Twig%20Highlighter",
+      "package_scopes": [
+        "text.october"
+      ]
+    }
+  ],
+
+  // The syntax packages for TypeScript files.
+  "file_type_typescript": [
+    {
+      "package_name": "TypeScript",
+      "package_url": "https://packagecontrol.io/packages/TypeScript",
+      "package_scopes": [
+        "source.ts"
+      ]
+    },
+    {
+      "package_name": "Type​Script Syntax",
+      "package_url": "https://packagecontrol.io/packages/TypeScript%20Syntax",
+      "package_scopes": [
+        "source.ts"
+      ]
+    }
+  ],
+
+  // The syntax packages for VIM specific files.
+  "file_type_vim": [
+    {
+      "package_name": "VimL",
+      "package_url": "https://packagecontrol.io/packages/VimL",
+      "package_scopes": [
+        "source.viml"
+      ]
+    }
+  ],
+
+  // The syntax packages for Vue JS files.
+  "file_type_vue": [
+    {
+      "package_name": "Vue Syntax Highlight",
+      "package_url": "https://packagecontrol.io/packages/Vue%20Syntax%20Highlight",
+      "package_scopes": [
+        "text.html.vue"
+      ]
+    }
+  ],
+
+  // The syntax packages for Microsoft Windows specific files.
+  "file_type_windows": [
+    {
+      "package_name": "Batch File",
+      "package_scopes": [
+        "source.dosbatch"
+      ]
+    }
+  ],
+
+  // The syntax packages for YAML files.
+  "file_type_yaml": [
+    {
+      "package_name": "YAML",
+      "package_scopes": [
+        "source.yaml"
+      ]
+    }
+  ]
+}

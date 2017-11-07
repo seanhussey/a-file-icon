@@ -1,0 +1,45 @@
+{
+  /* THEME-SPECIFIC SETTINGS
+   * ************************************************************ *
+   * This file contains settings on a per-theme basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - In most cases global settings should work fine, otherwise
+  //    you can tweak the appearance of icons for your theme here.
+  //  - All general settings can be overridden.
+  //  - Theme developers can provide recommended settings on a
+  //    per-theme basis. You can also override them here if you
+  //    don't like the recommended ones.
+  //  - Some themes support colorization of icons (all icon assets
+  //    should be white). The engine will use colors provided in the
+  //    settings for them.
+  //  - Additionally you can provide next boolean settings on
+  //    a per-theme basis:
+  //      * "supports_icon_colorization" – indicates that the theme
+  //        supports colorization of icons,
+  //      * "ignored" – tells to ignore the theme and do no create
+  //        any icon related patches.
+  //  - Your custom settings should follow our convention:
+  //    "<theme name without `.sublime-theme`>": {
+  //      < custom theme settings ... >
+  //    }
+
+
+
+  // Default Themes
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Custom settings for `Default.sublime-theme`.
+  "Default": {
+    "icon_margin_right": 2,
+    "icon_opacity_on_hover": 0.7
+  },
+
+  // Custom settings for `Adaptive.sublime-theme`.
+  "Adaptive": {
+    "icon_margin_right": 2,
+    "icon_opacity_on_hover": 0.7,
+    "supports_icon_colorization": true
+  }
+}

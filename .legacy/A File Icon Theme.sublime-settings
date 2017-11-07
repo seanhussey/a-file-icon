@@ -1,0 +1,17 @@
+{
+  /* THEME-SPECIFIC SETTINGS – LEGACY
+   * ************************************************************ *
+   * This file contains legacy settings on a per-theme basis.
+   * ************************************************************ */
+
+  // TODO: Remove this settings file when theme developers will add
+  // `A File Icon Theme.sublime-settings` to their packages.
+
+  "Boxy Monokai": {},
+  "Boxy Nova": {},
+  "Boxy Ocean": {},
+  "Boxy Solarized Dark": {},
+  "Boxy Solarized Light": {},
+  "Boxy Tomorrow": {},
+  "Boxy Yesterday": {}
+}

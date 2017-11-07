@@ -1,0 +1,388 @@
+{
+  /* ICON-SPECIFIC SETTINGS – RECOMMENDED COLORS
+   * ************************************************************ *
+   * This file contains color settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - These settings are used only when multi-color mode is
+  //    enabled for the current UI theme.
+  //  - Valid values are various color formats. See `Color Formats`
+  //    and `Multi Color` sections in the general settings file
+  //    for more details.
+  //  - The name of each setting should match the corresponding icon
+  //    name without extension. E.g. we have the `file_type_foo.png`
+  //    icon for Foo files, so the name is `file_type_foo`.
+
+  // The icon color for Microsoft Access files.
+  "file_type_access": "$redish_icon_color",
+
+  // The icon color for ActionScript files.
+  "file_type_actionscript": "$redish_icon_color",
+
+  // The icon color for Adobe After Effects files.
+  "file_type_ae": "$purplish_icon_color",
+
+  // The icon color for Adobe Illustrator files.
+  "file_type_ai": "$orangish_icon_color",
+
+  // The icon color for Angular specific files.
+  "file_type_angular": "$redish_icon_color",
+
+  // The icon color for AppleScript files.
+  "file_type_applescript": "$grayish_icon_color",
+
+  // The icon color for archive files.
+  "file_type_archive": "$grayish_icon_color",
+
+  // The icon color for audio files.
+  "file_type_audio": "$redish_icon_color",
+
+  // The icon color for Babel specific files.
+  "file_type_babel": "$yellowish_icon_color",
+
+  // The icon color for binary files.
+  "file_type_binary": "$grayish_icon_color",
+
+  // The icon color for Laravel Blade files.
+  "file_type_blade": "$orangish_icon_color",
+
+  // The icon color for Bower specific files.
+  "file_type_bower": "$yellowish_icon_color",
+
+  // The icon color for C files.
+  "file_type_c": "$purplish_icon_color",
+
+  // The icon color for Circle CI specific files.
+  "file_type_circleci": "$grayish_icon_color",
+
+  // The icon color for Cold Fusion and Lucee files.
+  "file_type_cf": "$bluish_icon_color",
+
+  // The icon color for Clojure files.
+  "file_type_clojure": "$purplish_icon_color",
+
+  // The icon color for CoffeeScript files.
+  "file_type_coffeescript": "$orangish_icon_color",
+
+  // The icon color for Composer specific files.
+  "file_type_composer": "$orangish_icon_color",
+
+  // The icon color for C++ files.
+  "file_type_cpp": "$bluish_icon_color",
+
+  // The icon color for C# files.
+  "file_type_csharp": "$bluish_icon_color",
+
+  // The icon color for CSS files.
+  "file_type_css": "$bluish_icon_color",
+
+  // The icon color for CSV files.
+  "file_type_csv": "$greenish_icon_color",
+
+  // The icon color for Dart files.
+  "file_type_dart": "$greenish_icon_color",
+
+  // The default icon color.
+  "file_type_default": "$grayish_icon_color",
+
+  // The icon color for D files.
+  "file_type_dlang": "$redish_icon_color",
+
+  // The icon color for Docker specific files.
+  "file_type_docker": "$bluish_icon_color",
+
+  // The icon color for .NET specific files.
+  "file_type_dotnet": "$purplish_icon_color",
+
+  // The icon color for EditorConfig files.
+  "file_type_editorconfig": "$yellowish_icon_color",
+
+  // The icon color for Elm files.
+  "file_type_elm": "$greenish_icon_color",
+
+  // The icon color for Erlang files.
+  "file_type_erlang": "$redish_icon_color",
+
+  // The icon color for ESLint specific files.
+  "file_type_eslint": "$purplish_icon_color",
+
+  // The icon color for Elixir files.
+  "file_type_ex": "$purplish_icon_color",
+
+  // The icon color for Microsoft Excel files.
+  "file_type_excel": "$greenish_icon_color",
+
+  // The icon color for font files.
+  "file_type_font": "$greenish_icon_color",
+
+  // The icon color for Git specific files.
+  "file_type_git": "$orangish_icon_color",
+
+  // The icon color for Go files.
+  "file_type_go": "$bluish_icon_color",
+
+  // The icon color for Gradle files.
+  "file_type_gradle": "$greenish_icon_color",
+
+  // The icon color for Graphviz files.
+  "file_type_graphviz": "$bluish_icon_color",
+
+  // The icon color for Groovy files.
+  "file_type_groovy": "$bluish_icon_color",
+
+  // The icon color for Gruntfile.
+  "file_type_gruntfile": "$orangish_icon_color",
+
+  // The icon color for Gulpfile.
+  "file_type_gulpfile": "$redish_icon_color",
+
+  // The icon color for HAML files.
+  "file_type_haml": "$yellowish_icon_color",
+
+  // The icon color for Haskell files.
+  "file_type_haskell": "$purplish_icon_color",
+
+  // The icon color for Haxe files.
+  "file_type_haxe": "$orangish_icon_color",
+
+  // The icon color for HTML files.
+  "file_type_html": "$orangish_icon_color",
+
+  // The icon color for image files.
+  "file_type_image": "$greenish_icon_color",
+
+  // The icon color for Adobe InDesign files.
+  "file_type_indesign": "$redish_icon_color",
+
+  // The icon color for Java files.
+  "file_type_java": "$redish_icon_color",
+
+  // The icon color for JavaScript files.
+  "file_type_js": "$yellowish_icon_color",
+
+  // The icon color for JSON files.
+  "file_type_json": "$greenish_icon_color",
+
+  // The icon color for JSP files.
+  "file_type_jsp": "$purplish_icon_color",
+
+  // The icon color for JSX files.
+  "file_type_jsx": "$bluish_icon_color",
+
+  // The icon color for Julia files.
+  "file_type_julia": "$purplish_icon_color",
+
+  // The icon color for Kotlin files.
+  "file_type_kotlin": "$bluish_icon_color",
+
+  // The icon color for LESS files.
+  "file_type_less": "$bluish_icon_color",
+
+  // The icon color for license files.
+  "file_type_license": "$grayish_icon_color",
+
+  // The icon color for Liquid files.
+  "file_type_liquid": "$greenish_icon_color",
+
+  // The icon color for Lisp files.
+  "file_type_lisp": "$redish_icon_color",
+
+  // The icon color for lock files.
+  "file_type_lock": "$grayish_icon_color",
+
+  // The icon color for log files.
+  "file_type_log": "$grayish_icon_color",
+
+  // The icon color for LSL files.
+  "file_type_lsl": "$greenish_icon_color",
+
+  // The icon color for Lua files.
+  "file_type_lua": "$bluish_icon_color",
+
+  // The icon color for Markdown files.
+  "file_type_markdown": "$grayish_icon_color",
+
+  // The icon color for markup files.
+  "file_type_markup": "$purplish_icon_color",
+
+  // The icon color for MATLAB files.
+  "file_type_matlab": "$orangish_icon_color",
+
+  // The icon color for Maya files.
+  "file_type_maya": "$greenish_icon_color",
+
+  // The icon color for Mustache & Handlebars files.
+  "file_type_mustache": "$orangish_icon_color",
+
+  // The icon color for NGINX specific files.
+  "file_type_nginx": "$greenish_icon_color",
+
+  // The icon color for Node JS files.
+  "file_type_nodejs": "$greenish_icon_color",
+
+  // The icon color for notes.
+  "file_type_note": "$greenish_icon_color",
+
+  // The icon color for NPM specific files.
+  "file_type_npm": "$redish_icon_color",
+
+  // The icon color for NSIS files.
+  "file_type_nsis": "$purplish_icon_color",
+
+  // The icon color for OCaml files.
+  "file_type_ocaml": "$yellowish_icon_color",
+
+  // The icon color for Microsoft OneNote files.
+  "file_type_onenote": "$purplish_icon_color",
+
+  // The icon color for PDF files.
+  "file_type_pdf": "$redish_icon_color",
+
+  // The icon color for Perl files.
+  "file_type_perl": "$grayish_icon_color",
+
+  // The icon color for PHP files.
+  "file_type_php": "$bluish_icon_color",
+
+  // The icon color for property list files.
+  "file_type_plist": "$greenish_icon_color",
+
+  // The icon color for PostCSS files.
+  "file_type_postcss": "$redish_icon_color",
+
+  // The icon color for Microsoft PowerPoint files.
+  "file_type_powerpoint": "$orangish_icon_color",
+
+  // The icon color for PowerShell files.
+  "file_type_powershell": "$bluish_icon_color",
+
+  // The icon color for preferences.
+  "file_type_preferences": "$yellowish_icon_color",
+
+  // The icon color for Adobe Premiere files.
+  "file_type_premiere": "$purplish_icon_color",
+
+  // The icon color for Procfile.
+  "file_type_procfile": "$purplish_icon_color",
+
+  // The icon color for Adobe Photoshop files.
+  "file_type_psd": "$bluish_icon_color",
+
+  // The icon color for Pug files.
+  "file_type_pug": "$yellowish_icon_color",
+
+  // The icon color for Puppet files.
+  "file_type_puppet": "$purplish_icon_color",
+
+  // The icon color for Python files.
+  "file_type_python": "$yellowish_icon_color",
+
+  // The icon color for R files.
+  "file_type_r": "$bluish_icon_color",
+
+  // The icon color for Rails files.
+  "file_type_rails": "$redish_icon_color",
+
+  // The icon color for Riot files.
+  "file_type_riot": "$redish_icon_color",
+
+  // The icon color for Ruby files.
+  "file_type_ruby": "$redish_icon_color",
+
+  // The icon color for Rust files.
+  "file_type_rust": "$bluish_icon_color",
+
+  // The icon color for Sass files.
+  "file_type_sass": "$redish_icon_color",
+
+  // The icon color for Scala files.
+  "file_type_scala": "$redish_icon_color",
+
+  // The icon color for SCSS files.
+  "file_type_scss": "$redish_icon_color",
+
+  // The icon color for settings.
+  "file_type_settings": "$grayish_icon_color",
+
+  // The icon color for Shell specific files.
+  "file_type_shell": "$greenish_icon_color",
+
+  // The icon color for Sketch files.
+  "file_type_sketch": "$purplish_icon_color",
+
+  // The icon color for Ruby Slim files.
+  "file_type_slim": "$greenish_icon_color",
+
+  // The icon color for source files.
+  "file_type_source": "$bluish_icon_color",
+
+  // The icon color for SQL files.
+  "file_type_sql": "$bluish_icon_color",
+
+  // The icon color for Stata files.
+  "file_type_stata": "$bluish_icon_color",
+
+  // The icon color for Stylelint files.
+  "file_type_stylelint": "$grayish_icon_color",
+
+  // The icon color for Stylus files.
+  "file_type_stylus": "$greenish_icon_color",
+
+  // The icon color for Sublime Text files.
+  "file_type_sublime": "$orangish_icon_color",
+
+  // The icon color for SVG files.
+  "file_type_svg": "$orangish_icon_color",
+
+  // The icon color for Swift files.
+  "file_type_swift": "$orangish_icon_color",
+
+  // The icon color for Tcl files.
+  "file_type_tcl": "$yellowish_icon_color",
+
+  // The icon color for Tern JS files.
+  "file_type_tern": "$grayish_icon_color",
+
+  // The icon color for LaTeX files.
+  "file_type_tex": "$bluish_icon_color",
+
+  // The icon color for text files.
+  "file_type_text": "$yellowish_icon_color",
+
+  // The icon color for Textile files.
+  "file_type_textile": "$grayish_icon_color",
+
+  // The icon color for TODO files.
+  "file_type_todo": "$greenish_icon_color",
+
+  // The icon color for Twig files.
+  "file_type_twig": "$greenish_icon_color",
+
+  // The icon color for TypeScript files.
+  "file_type_typescript": "$bluish_icon_color",
+
+  // The icon color for video files.
+  "file_type_video": "$purplish_icon_color",
+
+  // The icon color for VIM specific files.
+  "file_type_vim": "$greenish_icon_color",
+
+  // The icon color for Vue JS files.
+  "file_type_vue": "$greenish_icon_color",
+
+  // The icon color for Webpack specific files.
+  "file_type_webpack": "$bluish_icon_color",
+
+  // The icon color for Microsoft Windows specific files.
+  "file_type_windows": "$bluish_icon_color",
+
+  // The icon color for Microsoft Word files.
+  "file_type_word": "$bluish_icon_color",
+
+  // The icon color for YAML files.
+  "file_type_yaml": "$yellowish_icon_color",
+
+  // The icon color for Yarn specific files.
+  "file_type_yarn": "$bluish_icon_color"
+}

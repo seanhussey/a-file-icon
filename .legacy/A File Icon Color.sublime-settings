@@ -1,0 +1,100 @@
+{
+  /* ICON-SPECIFIC SETTINGS – LEGACY COLORS
+   * ************************************************************ *
+   * This file contains legacy color settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Starting 4.0.0 we do not use next colors by default:
+  //  - sky (#1e9cef),
+  //  - pink (#f13c6f),
+  //  - cyan (#26a2c1).
+  // If you want to use previous colors you can copy these settings
+  // to `Packages/User/A File Icon Color.sublime-settings` file.
+
+  // The legacy icon color for Angular specific files.
+  "file_type_angular": "#f13c6f",
+
+  // The legacy icon color for Cold Fusion files.
+  "file_type_cf": "#26a2c1",
+
+  // The legacy icon color for C++ files.
+  "file_type_cpp": "#1e9cef",
+
+  // The legacy icon color for Dart files.
+  "file_type_dart": "#26a2c1",
+
+  // The legacy icon color for Docker specific files.
+  "file_type_docker": "#1e9cef",
+
+  // The legacy icon color for .NET specific files.
+  "file_type_dotnet": "#26a2c1",
+
+  // The legacy icon color for Elm files.
+  "file_type_elm": "#26a2c1",
+
+  // The legacy icon color for Go files.
+  "file_type_go": "#1e9cef",
+
+  // The legacy icon color for Gradle files.
+  "file_type_gradle": "#26a2c1",
+
+  // The legacy icon color for Graphviz files.
+  "file_type_graphviz": "#26a2c1",
+
+  // The legacy icon color for Groovy files.
+  "file_type_groovy": "#26a2c1",
+
+  // The legacy icon color for Gulpfile.
+  "file_type_gulpfile": "#f13c6f",
+
+  // The legacy icon color for Adobe InDesign files.
+  "file_type_indesign": "#f13c6f",
+
+  // The legacy icon color for license files.
+  "file_type_license": "#26a2c1",
+
+  // The legacy icon color for lock files.
+  "file_type_lock": "#d52a29",
+
+  // The legacy icon color for LSL files.
+  "file_type_lsl": "#26a2c1",
+
+  // The legacy icon color for Maya files.
+  "file_type_maya": "#26a2c1",
+
+  // The legacy icon color for property list files.
+  "file_type_plist": "#26a2c1",
+
+  // The legacy icon color for Adobe Photoshop files.
+  "file_type_psd": "#1e9cef",
+
+  // The legacy icon color for Rust files.
+  "file_type_rust": "#1e9cef",
+
+  // The legacy icon color for Sass files.
+  "file_type_sass": "#f13c6f",
+
+  // The legacy icon color for SCSS files.
+  "file_type_scss": "#f13c6f",
+
+  // The legacy icon color for Ruby Slim files.
+  "file_type_slim": "#26a2c1",
+
+  // The legacy icon color for source files.
+  "file_type_source": "#1e9cef",
+
+  // The legacy icon color for Stata files.
+  "file_type_stata": "#1e9cef",
+
+  // The legacy icon color for Textile files.
+  "file_type_textile": "#f13c6f",
+
+  // The legacy icon color for TypeScript files.
+  "file_type_typescript": "#1e9cef",
+
+  // The legacy icon color for Vue JS files.
+  "file_type_vue": "#26a2c1",
+
+  // The legacy icon color for Windows specific files.
+  "file_type_windows": "#1e9cef"
+}

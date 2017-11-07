@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+<![CDATA[
+// The icon color for $1 files.
+"$2": "$3",
+]]>
+  </content>
+  <tabTrigger>color</tabTrigger>
+  <scope>source.json</scope>
+  <description>A File Icon Color Snippet</description>
+</snippet>

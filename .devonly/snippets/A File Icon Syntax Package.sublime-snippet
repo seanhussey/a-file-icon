@@ -1,0 +1,19 @@
+<snippet>
+  <content>
+<![CDATA[
+// The syntax packages for $1 files.
+"$2": [
+  {
+    "package_name": "$3",
+    "package_url": "$4",
+    "package_scopes": [
+      $5
+    ]
+  }
+],
+]]>
+  </content>
+  <tabTrigger>package</tabTrigger>
+  <scope>source.json</scope>
+  <description>A File Icon Syntax Package Snippet</description>
+</snippet>

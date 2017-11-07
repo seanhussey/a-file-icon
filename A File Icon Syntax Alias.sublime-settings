@@ -1,0 +1,682 @@
+{
+  /* ICON-SPECIFIC SETTINGS – SYNTAX ALIASES
+   * ************************************************************ *
+   * This file contains alias settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - We use these settings to generate syntax aliases and icon
+  //    preferences for them.
+  //  - All syntax alias files can be found in `assets/aliases`.
+  //  - All icon preferences files can be found in `assets/prefs`.
+  //  - All syntax aliases can be disabled in the general settings.
+  //  - If you think that some icon is missing: feel free to file
+  //    your issue: https://github.com/ihodev/a-file-icon/issues.
+
+  /*
+    // The list of syntax aliases which are associated with the
+    // icon. Syntax alias is just a regular syntax that is
+    // entirely based on a different language and has different
+    // semantics. E.g. `gulpfile.js` file uses `JavaScript` syntax
+    // by default, but A File Icon provides the syntax alias for
+    // it to use a different icon.
+    // Note, the name of this setting should match the icon asset
+    // name without extension. E.g. we have the `file_type_bar.png`
+    // icon for Bar files, so the name is next:
+    "file_type_bar": [
+      {
+        // The list of the file extensions is used to associate
+        // them with syntax alias.
+        "alias_extensions": [
+          "bar"
+        ],
+
+        // The base syntax used to create the syntax alias.
+        // The list of all base syntaxes can be found in
+        // "A File Icon Base Syntax.sublime-settings" file.
+        "base_syntax": "foo"
+      }
+    ],
+  */
+
+  // The syntax aliases for Microsoft Access files.
+  "file_type_access": [
+    {
+      "alias_extensions": [
+        "adn",
+        "accdb",
+        "accdr",
+        "accdt",
+        "accda",
+        "mdw",
+        "accde",
+        "mam",
+        "maq",
+        "mar",
+        "mat",
+        "maf",
+        "laccdb"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Adobe After Effects files.
+  "file_type_ae": [
+    {
+      "alias_extensions": [
+        "aep",
+        "aet"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Adobe Illustrator files.
+  "file_type_ai": [
+    {
+      "alias_extensions": [
+        "ai"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for archive files.
+  "file_type_archive": [
+    {
+      "alias_extensions": [
+        "7z",
+        "7zip",
+        "gz",
+        "pzip",
+        "rar",
+        "saz",
+        "tar",
+        "tgz",
+        "wim",
+        "zip"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for audio files.
+  "file_type_audio": [
+    {
+      "alias_extensions": [
+        "mp3",
+        "m4p",
+        "aac",
+        "aiff",
+        "au",
+        "flac",
+        "m4a",
+        "mpc",
+        "mp+",
+        "mpp",
+        "oga",
+        "opus",
+        "ra",
+        "rm",
+        "wav",
+        "wma"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Babel specific files.
+  "file_type_babel": [
+    {
+      "alias_extensions": [
+        ".babelrc"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for Bower specific files.
+  "file_type_bower": [
+    {
+      "alias_extensions": [
+        "bower.json",
+        ".bowerrc"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for Circle CI specific files.
+  "file_type_circleci": [
+    {
+      "alias_extensions": [
+        "circle.yml"
+      ],
+      "base_syntax": "yaml"
+    }
+  ],
+
+  // The syntax aliases for Composer specific files.
+  "file_type_composer": [
+    {
+      "alias_extensions": [
+        "composer.json",
+        "composer.lock"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for Docker specific files.
+  "file_type_docker": [
+    {
+      "alias_extensions": [
+        "docker-compose.yml"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_extensions": [
+        ".dockerignore"
+      ],
+      "base_syntax": "bash"
+    }
+  ],
+
+  // The syntax aliases for ESLint specific files.
+  "file_type_eslint": [
+    {
+      "alias_extensions": [
+        ".eslintrc",
+        ".eslintrc.json"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_extensions": [
+        ".eslintrc.js"
+      ],
+      "base_syntax": "javascript"
+    },
+    {
+      "alias_extensions": [
+        ".eslintrc.yaml",
+        ".eslintrc.yml"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_extensions": [
+        ".eslintignore"
+      ],
+      "base_syntax": "bash"
+    },
+    {
+      "alias_extensions": [
+        ".eslintcache"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Microsoft Excel files.
+  "file_type_excel": [
+    {
+      "alias_extensions": [
+        "xls",
+        "xlsx",
+        "xlsm",
+        "xlsb",
+        "xlt"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for font files.
+  "file_type_font": [
+    {
+      "alias_extensions": [
+        "eot",
+        "otf",
+        "ttf",
+        "woff",
+        "woff2"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Git specific files.
+  "file_type_git": [
+    {
+      "alias_extensions": [
+        ".gitignore",
+        ".gitkeep"
+      ],
+      "base_syntax": "bash"
+    }
+  ],
+
+  // The syntax aliases for Gradle files.
+  "file_type_gradle": [
+    {
+      "alias_extensions": [
+        "gradle"
+      ],
+      "base_syntax": "groovy"
+    }
+  ],
+
+  // The syntax aliases for Gruntfile.
+  "file_type_gruntfile": [
+    {
+      "alias_extensions": [
+        "gruntfile.js"
+      ],
+      "base_syntax": "javascript"
+    }
+  ],
+
+  // The syntax aliases for Gulpfile.
+  "file_type_gulpfile": [
+    {
+      "alias_extensions": [
+        "gulpfile.js",
+        "gulpfile.babel.js"
+      ],
+      "base_syntax": "javascript"
+    },
+    {
+      "alias_extensions": [
+        "gulpfile.coffee"
+      ],
+      "base_syntax": "coffeescript"
+    }
+  ],
+
+  // The syntax aliases for Adobe InDesign files.
+  "file_type_indesign": [
+    {
+      "alias_extensions": [
+        "indd",
+        "indl",
+        "indt",
+        "indb",
+        "inx",
+        "idml"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for license files.
+  "file_type_license": [
+    {
+      "alias_extensions": [
+        "license"
+      ],
+      "base_syntax": "text"
+    },
+    {
+      "alias_extensions": [
+        "license.md"
+      ],
+      "base_syntax": "markdown"
+    }
+  ],
+
+  // The syntax aliases for lock files.
+  "file_type_lock": [
+    {
+      "alias_extensions": [
+        "Gemfile.lock"
+      ],
+      "base_syntax": "yaml"
+    }
+  ],
+
+  // The syntax aliases for log files.
+  "file_type_log": [
+    {
+      "alias_extensions": [
+        "log"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Node JS files.
+  "file_type_nodejs": [
+    {
+      "alias_extensions": [
+        ".node-version",
+        ".nvmrc"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for NPM specific files.
+  "file_type_npm": [
+    {
+      "alias_extensions": [
+        ".npmignore",
+        ".npmrc"
+      ],
+      "base_syntax": "bash"
+    },
+    {
+      "alias_extensions": [
+        "package.json"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for Microsoft OneNote files.
+  "file_type_onenote": [
+    {
+      "alias_extensions": [
+        "one"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for PDF files.
+  "file_type_pdf": [
+    {
+      "alias_extensions": [
+        "pdf"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for PostCSS files.
+  "file_type_postcss": [
+    {
+      "alias_extensions": [
+        ".postcssrc"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_extensions": [
+        "postcss.config.js"
+      ],
+      "base_syntax": "javascript"
+    }
+  ],
+
+  // The syntax aliases for Microsoft PowerPoint files.
+  "file_type_powerpoint": [
+    {
+      "alias_extensions": [
+        "ppt",
+        "pptx",
+        "pps",
+        "ppsx"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Adobe Premiere files.
+  "file_type_premiere": [
+    {
+      "alias_extensions": [
+        "prel",
+        "prproj",
+        "psq"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Procfile.
+  "file_type_procfile": [
+    {
+      "alias_extensions": [
+        "Procfile"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_extensions": [
+        ".buildpacks"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Adobe Photoshop files.
+  "file_type_psd": [
+    {
+      "alias_extensions": [
+        "psb",
+        "psd"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Pug files.
+  "file_type_pug": [
+    {
+      "alias_extensions": [
+        ".pug-lintrc",
+        ".pug-lintrc.json"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_extensions": [
+        ".pug-lintrc.js"
+      ],
+      "base_syntax": "javascript"
+    }
+  ],
+
+  // The syntax aliases for Ruby files.
+  "file_type_ruby": [
+    {
+      "alias_extensions": [
+        ".rvmrc"
+      ],
+      "base_syntax": "bash"
+    },
+    {
+      "alias_extensions": [
+        ".ruby-version",
+        ".ruby-gemset",
+        ".rspec"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for settings files.
+  "file_type_settings": [
+    {
+      "alias_extensions": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_extensions": [
+        "config"
+      ],
+      "base_syntax": "xml"
+    }
+  ],
+
+  // The syntax aliases for Sketch files.
+  "file_type_sketch": [
+    {
+      "alias_extensions": [
+        "sketch"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Stylelint files.
+  "file_type_stylelint": [
+    {
+      "alias_extensions": [
+        ".stylelintrc",
+        ".stylelintrc.json"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_extensions": [
+        ".stylelintrc.js",
+        "stylelint.config.js"
+      ],
+      "base_syntax": "javascript"
+    },
+    {
+      "alias_extensions": [
+        ".stylelintrc.yaml",
+        ".stylelintrc.yml"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_extensions": [
+        ".stylelintignore"
+      ],
+      "base_syntax": "bash"
+    }
+  ],
+
+  // The syntax aliases for Sublime Text files.
+  "file_type_sublime": [
+    {
+      "alias_extensions": [
+        ".no-sublime-package",
+        "sublime-commands",
+        "sublime-menu",
+        "sublime-project",
+        "sublime-settings",
+        "sublime-theme",
+        "sublime-workspace",
+        "sublime-keymap",
+        "sublime-mousemap"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for SVG files.
+  "file_type_svg": [
+    {
+      "alias_extensions": [
+        "svg"
+      ],
+      "base_syntax": "xml"
+    }
+  ],
+
+  // The syntax aliases for Tern JS files.
+  "file_type_tern": [
+    {
+      "alias_extensions": [
+        ".tern-project",
+        ".tern-config"
+      ],
+      "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for video files.
+  "file_type_video": [
+    {
+      "alias_extensions": [
+        "avi",
+        "mp4",
+        "mov",
+        "mkv",
+        "h264",
+        "webm",
+        "wmv",
+        "ogv",
+        "ogg",
+        "3gp",
+        "m4v",
+        "mpg",
+        "mpeg",
+        "3gpp",
+        "ogm"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for VIM specific files.
+  "file_type_vim": [
+    {
+      "alias_extensions": [
+        ".vimrc",
+        ".gvimrc",
+        "_vimrc",
+        "_gvimrc"
+      ],
+      "base_syntax": "vim"
+    }
+  ],
+
+  // The syntax aliases for Webpack specific files.
+  "file_type_webpack": [
+    {
+      "alias_extensions": [
+        "webpack.config.js",
+        "webpack.config.babel.js",
+        "webpack.mix.js"
+      ],
+      "base_syntax": "javascript"
+    }
+  ],
+
+  // The syntax aliases for Microsoft Windows specific files.
+  "file_type_windows": [
+    {
+      "alias_extensions": [
+        "lnk"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Microsoft Word files.
+  "file_type_word": [
+    {
+      "alias_extensions": [
+        "doc",
+        "docx",
+        "docm",
+        "docxml",
+        "dotm",
+        "dotx",
+        "wri"
+      ],
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Yarn specific files.
+  "file_type_yarn": [
+    {
+      "alias_extensions": [
+        "yarn.lock"
+      ],
+      "base_syntax": "yaml"
+    }
+  ]
+}

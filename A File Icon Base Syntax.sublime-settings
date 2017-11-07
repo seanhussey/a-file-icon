@@ -1,0 +1,92 @@
+{
+  /* ICON-SPECIFIC SETTINGS – BASE SYNTAXES
+   * ************************************************************ *
+   * This file contains the list of the base syntaxes.
+   * ************************************************************ */
+
+  // Note:
+  //  - We use these settings to generate syntax aliases and icon
+  //    preferences for them.
+  //  - Each syntax alias has "base_syntax" setting which should
+  //    match the name of the one of base syntaxes provided below.
+
+  // Base Bash syntax file.
+  "bash": {
+    "syntax_name": "Bash",
+    "syntax_path": "Packages/ShellScript/Bash.sublime-syntax",
+    "syntax_scope": "source.shell.bash",
+    "syntax_lintable": true
+  },
+
+  // Base CoffeeScript syntax file.
+  "coffeescript": {
+    "syntax_name": "CoffeeScript",
+    "syntax_path": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+    "syntax_scope": "source.coffee",
+    "syntax_lintable": true
+  },
+
+  // Base Groovy syntax file.
+  "groovy": {
+    "syntax_name": "Groovy",
+    "syntax_path": "Packages/Groovy/Groovy.sublime-syntax",
+    "syntax_scope": "source.groovy",
+    "syntax_lintable": false
+  },
+
+  // Base JavaScript syntax file.
+  "javascript": {
+    "syntax_name": "JavaScript",
+    "syntax_path": "Packages/JavaScript/JavaScript.sublime-syntax",
+    "syntax_scope": "source.js",
+    "syntax_lintable": true
+  },
+
+  // Base JSON syntax file.
+  "json": {
+    "syntax_name": "JSON",
+    "syntax_path": "Packages/JavaScript/JSON.sublime-syntax",
+    "syntax_scope": "source.json",
+    "syntax_lintable": true
+  },
+
+  // Base Markdown syntax file.
+  "markdown": {
+    "syntax_name": "Markdown",
+    "syntax_path": "Packages/Markdown/Markdown.sublime-syntax",
+    "syntax_scope": "text.html.markdown",
+    "syntax_lintable": true
+  },
+
+  // Base Text syntax file.
+  "text": {
+    "syntax_name": "Plain Text",
+    "syntax_path": "Packages/Text/Plain text.tmLanguage",
+    "syntax_scope": "text.plain",
+    "syntax_lintable": false
+  },
+
+  // Base VIM syntax file.
+  "vim": {
+    "syntax_name": "VimL",
+    "syntax_path": "Packages/VimL/VimL.tmLanguage",
+    "syntax_scope": "source.viml",
+    "syntax_lintable": false
+  },
+
+  // Base XML syntax file.
+  "xml": {
+    "syntax_name": "XML",
+    "syntax_path": "Packages/XML/XML.sublime-syntax",
+    "syntax_scope": "text.xml",
+    "syntax_lintable": true
+  },
+
+  // Base YAML syntax file.
+  "yaml": {
+    "syntax_name": "YAML",
+    "syntax_path": "Packages/YAML/YAML.sublime-syntax",
+    "syntax_scope": "source.yaml",
+    "syntax_lintable": true
+  }
+}

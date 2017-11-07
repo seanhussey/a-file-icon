@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+<![CDATA[
+// Base $1 syntax file.
+"$2": {
+  "syntax_name": "$3",
+  "syntax_path": "$4",
+  "syntax_scope": "$5",
+  "syntax_lintable": true
+},
+]]>
+  </content>
+  <tabTrigger>base</tabTrigger>
+  <scope>source.json</scope>
+  <description>A File Icon Base Syntax Snippet</description>
+</snippet>
